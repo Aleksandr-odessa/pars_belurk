@@ -1,16 +1,15 @@
-"""Modul mainMain module for automating the login
+"""Main module for automating the login
 and navigation process on a specified website using Selenium"""
-
 import logging.config
 import os
 
 from dotenv import load_dotenv
 from selenium import webdriver
-from selenium.common import TimeoutException, NoSuchElementException
+from selenium.common import NoSuchElementException, TimeoutException
 
-from helpers.helper import (login_to_website,
-                            navigate_to_proxies, navigate_to_table)
 from conf_log.logging_config import LOGGING_CONFIG
+from helpers.helper import (login_to_website, navigate_to_proxies,
+                            navigate_to_table)
 
 logging.config.dictConfig(LOGGING_CONFIG)
 error_logger = logging.getLogger('log_error')
