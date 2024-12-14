@@ -4,7 +4,7 @@
 
 Установка:
 1. Клонировать репозиторий:
-git clone https://github.com/Aleksandr-odessa/pars_belurk
+git clone https://github.com/Aleksandr-odessa/pars_belurk.git
 2. Установить зависимости. 
 pip install -r requirements.txt
 
