@@ -1,4 +1,4 @@
-"""Modul mainMain module for automating the login
+""" Main module for automating the login
 and navigation process on a specified website using Selenium"""
 
 import logging.config
